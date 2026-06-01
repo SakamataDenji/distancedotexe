@@ -1,0 +1,76 @@
+@font-face {
+   font-family: "VGA437";
+   src: url("site/fonts/IBM_VGA_8x16.woff") format("woff");
+   }
+   
+html{
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  }
+body {
+  background:#000;
+  color:#00ff00;
+  font-family: "Courier New", Courier, monospace;
+  font-size:14px;
+  box-sizing:border-box;
+   max-width: 82ch;
+  margin: 12px auto;
+  line-height: 1.45;
+    text-shadow: 0 0 3px rgba(0,255,0,0.25);
+}
+
+.rule {
+  border-top: 1px dashed #00ff00;
+  margin: 12px 0;
+  width: 100%;
+}
+
+.logo{
+  font-family: "VGA437", monospace;
+  font-size:16px;
+  line-height:14px;
+  white-space:pre;
+  
+  -webkit-font-smoothing:none;
+  font-smooth:never;
+  image-rendering: pixelated;
+  }
+  @media (max-width: 700px) {
+  .logo {
+    max-width: 100%;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+img{
+  padding:15px;
+  max-width: 100%;
+  height: auto;
+}
+.cont{
+  text-align: center;
+  vertical-align: baseline;
+  padding:10px 4px;
+  padding-top:6px;
+}
+.cont h2{
+   text-align: center;
+}
+
+a:link{
+  text-decoration: none;
+  color:#00ff00;
+}
+
+a:visited{
+  text-decoration: none;
+  color:#00ff00;
+}
+
+a:hover{
+  background: #00ff00;
+  color: #000;
+  
+}
